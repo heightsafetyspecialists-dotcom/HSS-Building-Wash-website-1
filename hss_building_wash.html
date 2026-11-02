@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSS Building Wash | Professional Exterior Cleaning & Water Blasting Christchurch</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'ocean-dark': '#03112E',
+                        'ocean-navy': '#062054',
+                        'ocean-blue': '#0A387E',
+                        'water-cyan': '#38BDF8',
+                        'accent-gold': '#F59E0B',
+                        'accent-gold-hover': '#D97706',
+                    },
+                    backgroundImage: {
+                        'hero-gradient': 'radial-gradient(circle at top center, #0B469B 0%, #062054 50%, #03112E 100%)',
+                        'card-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%)',
+                        'glass-gradient': 'linear-gradient(180deg, rgba(56, 189, 248, 0.15) 0%, rgba(6, 32, 84, 0.6) 100%)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #03112E;
+            color: #F0F9FF;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        .glass-card {
+            background: rgba(8, 40, 96, 0.55);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .glass-card:hover {
+            border-color: rgba(245, 158, 11, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3);
+        }
+        .droplet-glow {
+            box-shadow: 0 0 50px rgba(56, 189, 248, 0.35);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-accent-gold selection:text-black">
+
+    <!-- Top Announcement & Quick Contact Header -->
+    <div class="bg-black/80 text-water-cyan text-xs sm:text-sm py-2 px-4 border-b border-water-cyan/20">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-3 font-semibold">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-location-dot text-accent-gold"></i> Christchurch & Canterbury Region</span>
+                <span class="hidden md:inline text-blue-400/40">|</span>
+                <span class="hidden md:inline text-blue-200">Residential & Commercial Wash Specialists</span>
+            </div>
+            <div class="flex items-center gap-4 text-xs font-bold">
+                <a href="tel:0221874508" class="text-white hover:text-accent-gold transition-colors flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-accent-gold"></i> 022-187-4508
+                </a>
+                <span class="text-blue-400/40">•</span>
+                <a href="mailto:hssbuildingwash@gmail.com" class="text-white hover:text-water-cyan transition-colors flex items-center gap-1">
+                    <i class="fa-solid fa-envelope text-water-cyan"></i> hssbuildingwash@gmail.com
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="bg-ocean-navy/90 backdrop-blur-md sticky top-0 z-50 border-b border-water-cyan/20 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Brand Logo & Droplet Motif -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 flex items-center justify-center bg-gradient-to-tr from-ocean-blue to-water-cyan rounded-full p-2 border border-white/20 shadow-lg group-hover:scale-105 transition-transform">
+                        <i class="fa-solid fa-droplet text-2xl text-white drop-shadow-md"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl sm:text-2xl font-black tracking-tight text-white block uppercase leading-none">
+                            HSS <span class="text-water-cyan">Building Wash</span>
+                        </span>
+                        <span class="text-[10px] sm:text-xs tracking-widest text-accent-gold font-bold uppercase block mt-1">
+                            Call Craig • 022-187-4508
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Action Buttons -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <a href="tel:0221874508" class="bg-accent-gold text-black px-5 py-2.5 rounded-lg font-black hover:bg-accent-gold-hover transition-all flex items-center gap-2 shadow-lg shadow-accent-gold/20 hover:scale-105 uppercase text-sm">
+                        <i class="fa-solid fa-phone"></i> Call 022-187-4508
+                    </a>
+                    <a href="mailto:hssbuildingwash@gmail.com" class="bg-water-cyan/20 text-water-cyan border border-water-cyan/40 px-5 py-2.5 rounded-lg font-bold hover:bg-water-cyan hover:text-black transition-all flex items-center gap-2 text-sm">
+                        <i class="fa-solid fa-envelope"></i> Email Us
+                    </a>
+                </div>
+
+                <!-- Mobile Action CTA -->
+                <div class="flex lg:hidden items-center gap-2">
+                    <a href="tel:0221874508" class="bg-accent-gold text-black px-4 py-2 rounded-lg font-black text-xs uppercase flex items-center gap-1">
+                        <i class="fa-solid fa-phone"></i> Call
+                    </a>
+                    <a href="mailto:hssbuildingwash@gmail.com" class="bg-water-cyan text-black px-3 py-2 rounded-lg font-bold text-xs uppercase">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-hero-gradient relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-b border-water-cyan/20 overflow-hidden">
+        <!-- Ambient Water Glow Effects -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-water-cyan/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            <!-- Left Headline Text -->
+            <div class="lg:col-span-7 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-water-cyan/10 border border-water-cyan/30 text-water-cyan text-xs font-bold px-3.5 py-1.5 rounded-full mb-6 uppercase tracking-wider">
+                    <i class="fa-solid fa-shield-halved text-accent-gold"></i> Pure Water & Soft-Wash Technology
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white uppercase tracking-tight mb-6 leading-tight">
+                    Professional <span class="text-transparent bg-clip-text bg-gradient-to-r from-water-cyan via-white to-accent-gold">Exterior Cleaning</span> & Building Wash
+                </h1>
+                <p class="text-blue-100 text-lg sm:text-xl mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    Restoring and protecting residential & commercial properties across Christchurch and Canterbury. Expert building washing, pure water window cleaning, roof washing, and high-pressure water blasting.
+                </p>
+
+                <!-- Big Hero CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="tel:0221874508" class="bg-accent-gold text-black text-center font-black px-8 py-4 rounded-xl hover:bg-accent-gold-hover transition-all uppercase tracking-wider text-lg shadow-xl shadow-accent-gold/20 flex items-center justify-center gap-3 hover:scale-105">
+                        <i class="fa-solid fa-phone text-xl"></i> Call Craig: 022-187-4508
+                    </a>
+                    <a href="mailto:hssbuildingwash@gmail.com" class="bg-ocean-navy/80 hover:bg-ocean-blue text-white border border-water-cyan/40 text-center font-bold px-8 py-4 rounded-xl transition-all text-lg flex items-center justify-center gap-3 hover:border-water-cyan">
+                        <i class="fa-solid fa-envelope text-water-cyan text-xl"></i> Email Us Direct
+                    </a>
+                </div>
+
+                <!-- Fast Specs Points -->
+                <div class="mt-10 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-accent-gold text-xl"></i>
+                        <span class="text-xs sm:text-sm text-blue-200 font-medium">Soft Brush Exterior Wash</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-water-cyan text-xl"></i>
+                        <span class="text-xs sm:text-sm text-blue-200 font-medium">Purified Water Window Systems</span>
+                    </div>
+                    <div class="flex items-center gap-3 col-span-2 sm:col-span-1">
+                        <i class="fa-solid fa-circle-check text-accent-gold text-xl"></i>
+                        <span class="text-xs sm:text-sm text-blue-200 font-medium">Free Site Inspections</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Hero Image Card (Flyer Visual Asset) -->
+            <div class="lg:col-span-5 flex justify-center">
+                <div class="relative w-full max-w-md rounded-2xl p-3 bg-gradient-to-b from-water-cyan/30 to-ocean-navy border border-water-cyan/40 shadow-2xl droplet-glow">
+                    <div class="rounded-xl overflow-hidden bg-ocean-dark border border-white/10 relative">
+                        <img src="images/A5 Flyer size front page.png" 
+                             alt="HSS Building Wash Artwork" 
+                             class="w-full h-auto object-cover rounded-xl shadow-inner"
+                             onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'p-8 text-center bg-ocean-navy text-white\'><i class=\'fa-solid fa-droplet text-6xl text-water-cyan mb-4 block\'></i><h3 class=\'text-2xl font-black uppercase text-accent-gold\'>HSS Building Wash</h3><p class=\'text-sm text-blue-200 mt-2\'>Call Craig on 022-187-4508</p><p class=\'text-xs text-water-cyan mt-1\'>hssbuildingwash@gmail.com</p></div>';">
+                    </div>
+                    <div class="p-4 text-center">
+                        <p class="text-xs font-bold uppercase text-water-cyan tracking-wider">Servicing Christchurch & Canterbury</p>
+                        <p class="text-white font-black text-lg mt-0.5">HSS Building Wash • Call Craig 022-187-4508</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Comprehensive Services Section (No Prices) -->
+    <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <div class="text-center mb-16">
+            <span class="text-accent-gold font-extrabold uppercase text-xs tracking-widest block mb-2">Our Complete Service Range</span>
+            <h2 class="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight mb-4">Exterior Wash & Cleaning Solutions</h2>
+            <div class="w-24 h-1.5 bg-gradient-to-r from-water-cyan to-accent-gold mx-auto mb-6 rounded-full"></div>
+            <p class="text-blue-200 max-w-2xl mx-auto text-base sm:text-lg">
+                We utilize specialized soft-brush equipment, purified water filtration, and high-flow pressure washing to safely clean every surface of your home or commercial building.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Service 1: Soft Brush Exterior Wash -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-water-cyan/20 text-water-cyan flex items-center justify-center text-2xl mb-5 border border-water-cyan/30">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">Soft Brush Exterior Wash</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Low-pressure soft washing combined with gentle detergent and soft-brush cleaning. Perfect for weatherboards, plaster cladding, stucco, and painted facades without causing surface damage.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Protects Paint & Cladding
+                </div>
+            </div>
+
+            <!-- Service 2: Purified Water Window Cleaning -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-accent-gold/20 text-accent-gold flex items-center justify-center text-2xl mb-5 border border-accent-gold/30">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Purified Water Window Clean</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Streak-free exterior window cleaning using 100% pure de-ionized water pole systems. Removes stubborn salt spray, grime, and water spots leaving glass crystal clear.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Streak-Free & Chemical Free
+                </div>
+            </div>
+
+            <!-- Service 3: Water Blasting Services -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-water-cyan/20 text-water-cyan flex items-center justify-center text-2xl mb-5 border border-water-cyan/30">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Water Blasting Services</h3>
+                    <p class="text-zinc-300 text-sm leading-relaxed mb-4">
+                        High-pressure washing for tough outdoor surfaces. We deep clean driveways, concrete patios, walkways, block walls, and boundary fences to eliminate moss and slipperiness.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Driveways, Concrete & Fences
+                </div>
+            </div>
+
+            <!-- Service 4: Gutter Cleaning & Rinsing -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-accent-gold/20 text-accent-gold flex items-center justify-center text-2xl mb-5 border border-accent-gold/30">
+                        <i class="fa-solid fa-trowel-bricks"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Gutters Cleaned & Rinsed</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Removal of leaves, silt, and debris from gutters and downpipe entrances. We thoroughly flush the internal channels and hand-wash exterior gutter faces.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Prevents Blockages & Overflows
+                </div>
+            </div>
+
+            <!-- Service 5: Roof Washing & Moss Treatment -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-water-cyan/20 text-water-cyan flex items-center justify-center text-2xl mb-5 border border-water-cyan/30">
+                        <i class="fa-solid fa-roof-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Roof Wash & Moss Spray</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Safe low-pressure chemical roof washing and long-lasting bio-wash moss/lichen treatments for Colorsteel, iron, and concrete tile roofs.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Extends Roof Lifespan
+                </div>
+            </div>
+
+            <!-- Service 6: Deck & Fence Restoration -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-accent-gold/20 text-accent-gold flex items-center justify-center text-2xl mb-5 border border-accent-gold/30">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Deck & Fence Wash</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Surface cleaning for timber decking, composite boards, and wooden or aluminum boundary fencing to remove weathered grime and slippery algae.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Restores Natural Appearance
+                </div>
+            </div>
+
+            <!-- Service 7: Commercial Pre-Paint Washing -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-water-cyan/20 text-water-cyan flex items-center justify-center text-2xl mb-5 border border-water-cyan/30">
+                        <i class="fa-solid fa-spray-can text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Pre-Paint Preparation Wash</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Rigorous decontamination washdowns designed specifically for residential and commercial painting prep, ensuring optimal paint adhesion.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Recommended by Painters
+                </div>
+            </div>
+
+            <!-- Service 8: Spider Spraying & Pest Barrier -->
+            <div class="glass-card p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-accent-gold/20 text-accent-gold flex items-center justify-center text-2xl mb-5 border border-accent-gold/30">
+                        <i class="fa-solid fa-bug"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 uppercase">Spider & Pest Barrier Treatment</h3>
+                    <p class="text-blue-200 text-sm leading-relaxed mb-4">
+                        Post-wash protective spider spraying along soffits, spouting, and exterior window frames to prevent unsightly webbing and insect nesting.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-white/10 text-xs font-semibold text-water-cyan flex items-center gap-1">
+                    <i class="fa-solid fa-check text-accent-gold"></i> Long-Lasting Barrier
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Features -->
+    <section class="bg-ocean-navy/60 py-20 px-4 sm:px-6 lg:px-8 border-t border-b border-water-cyan/20 relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5">
+                    <span class="text-water-cyan font-bold uppercase text-xs tracking-wider block mb-2">Why Property Owners Choose HSS</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white uppercase leading-tight mb-6">
+                        Quality Workmanship, Reliable Service & Local Experience
+                    </h2>
+                    <p class="text-blue-100 text-base leading-relaxed mb-6">
+                        HSS Building Wash is dedicated to providing superior exterior cleaning tailored to Canterbury weather conditions. Whether preparing a house for market or maintaining a commercial facade, Craig ensures every job is completed safely and thoroughly.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-accent-gold/20 text-accent-gold flex items-center justify-center flex-shrink-0 font-bold border border-accent-gold/40">1</div>
+                            <div>
+                                <h4 class="text-white font-bold">Purified Water Systems</h4>
+                                <p class="text-xs text-blue-200">De-mineralized pure water technology leaves windows spotless without chemicals or residue.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-water-cyan/20 text-water-cyan flex items-center justify-center flex-shrink-0 font-bold border border-water-cyan/40">2</div>
+                            <div>
+                                <h4 class="text-white font-bold">Soft Brush Care</h4>
+                                <p class="text-xs text-blue-200">We adjust our pressure to suit your cladding, protecting delicate seals and paintwork.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-accent-gold/20 text-accent-gold flex items-center justify-center flex-shrink-0 font-bold border border-accent-gold/40">3</div>
+                            <div>
+                                <h4 class="text-white font-bold">Free Fast Quotes</h4>
+                                <p class="text-xs text-blue-200">Call Craig directly on 022-187-4508 for prompt site assessments across Canterbury.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <i class="fa-solid fa-droplet text-4xl text-water-cyan mb-4 block"></i>
+                        <h4 class="text-white font-bold text-lg mb-2">Driveways & Patios</h4>
+                        <p class="text-xs text-blue-200">Heavy-duty water blasting removes years of dirt, lichen, moss, and oil stains.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <i class="fa-solid fa-house-circle-check text-4xl text-accent-gold mb-4 block"></i>
+                        <h4 class="text-white font-bold text-lg mb-2">Residential & Commercial</h4>
+                        <p class="text-xs text-blue-200">Equipped for standalone houses, townhouses, multi-story buildings, and retail fronts.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <i class="fa-solid fa-shield-virus text-4xl text-accent-gold mb-4 block"></i>
+                        <h4 class="text-white font-bold text-lg mb-2">Moss & Lichen Sprays</h4>
+                        <p class="text-xs text-blue-200">Targeted bio-wash treatments that kill microscopic spores and prevent rapid re-growth.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <i class="fa-solid fa-user-shield text-4xl text-water-cyan mb-4 block"></i>
+                        <h4 class="text-white font-bold text-lg mb-2">Height Certified</h4>
+                        <p class="text-xs text-blue-200">Safety compliant for high work, roof access, and elevated washdown operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote & Contact Form Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto w-full">
+        <div class="glass-card p-8 sm:p-12 rounded-3xl border border-water-cyan/30 shadow-2xl relative overflow-hidden">
+            <!-- Top Glow -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-accent-gold/10 rounded-full blur-2xl pointer-events-none"></div>
+
+            <div class="text-center mb-10">
+                <span class="text-accent-gold font-black uppercase text-xs tracking-widest block mb-1">Get In Touch Today</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase mb-3">Request A Free Site Quote</h2>
+                <p class="text-blue-200 text-sm max-w-xl mx-auto">
+                    Call Craig directly on <a href="tel:0221874508" class="text-accent-gold font-bold underline">022-187-4508</a>, email <a href="mailto:hssbuildingwash@gmail.com" class="text-water-cyan font-bold underline">hssbuildingwash@gmail.com</a>, or complete the quick form below.
+                </p>
+            </div>
+
+            <form action="#" method="POST" class="space-y-6 relative z-10" onsubmit="event.preventDefault(); document.getElementById('formMsg').classList.remove('hidden');">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Your Full Name *</label>
+                        <input type="text" required placeholder="Craig Smith" class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-accent-gold text-sm transition-all">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Phone Number *</label>
+                        <input type="tel" required placeholder="022 187 4508" class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-accent-gold text-sm transition-all">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Email Address *</label>
+                        <input type="email" required placeholder="name@example.com" class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-accent-gold text-sm transition-all">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Property Location / Address</label>
+                        <input type="text" placeholder="Christchurch / Canterbury address" class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-accent-gold text-sm transition-all">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Service Required</label>
+                    <select class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-accent-gold text-sm transition-all">
+                        <option>Soft Brush Exterior Building Wash</option>
+                        <option>Purified Water Window Cleaning</option>
+                        <option>Water Blasting (Driveways, Concrete, Fences)</option>
+                        <option>Gutters Cleaned & Rinsed</option>
+                        <option>Roof Wash & Moss Treatment</option>
+                        <option>Deck & Fence Washdown</option>
+                        <option>Pre-Paint Preparation Wash</option>
+                        <option>Full Property Package (House, Windows, Driveway, Roof)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-blue-200 uppercase mb-2">Project Details & Requirements</label>
+                    <textarea rows="4" placeholder="Tell us about the property size, cladding type, timing, or specific areas needing attention..." class="w-full bg-ocean-dark/80 border border-water-cyan/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-accent-gold text-sm transition-all"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-accent-gold text-black font-black uppercase py-4 rounded-xl hover:bg-accent-gold-hover transition-all tracking-wider text-base shadow-xl shadow-accent-gold/20 hover:scale-[1.01]">
+                    Submit Quote Request
+                </button>
+
+                <div id="formMsg" class="hidden bg-water-cyan/20 border border-water-cyan text-white p-4 rounded-xl text-center text-sm font-bold">
+                    <i class="fa-solid fa-circle-check text-accent-gold mr-2"></i> Thank you! Your request has been sent. Craig will contact you shortly on 022-187-4508.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating Contact Sticky Buttons for Mobile Users -->
+    <div class="fixed bottom-4 right-4 left-4 z-40 lg:hidden flex gap-3 pointer-events-none">
+        <a href="tel:0221874508" class="flex-1 bg-accent-gold text-black font-black py-3.5 px-4 rounded-xl shadow-2xl flex items-center justify-center gap-2 uppercase text-sm pointer-events-auto border border-black/20">
+            <i class="fa-solid fa-phone"></i> Call Craig
+        </a>
+        <a href="mailto:hssbuildingwash@gmail.com" class="flex-1 bg-ocean-navy text-white font-bold py-3.5 px-4 rounded-xl shadow-2xl flex items-center justify-center gap-2 text-sm pointer-events-auto border border-water-cyan">
+            <i class="fa-solid fa-envelope text-water-cyan"></i> Email Us
+        </a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-ocean-dark text-blue-200 py-12 px-4 sm:px-6 lg:px-8 border-t border-water-cyan/20 mt-auto">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mb-8">
+            <div>
+                <div class="flex items-center justify-center md:justify-start gap-3 mb-3">
+                    <i class="fa-solid fa-droplet text-2xl text-water-cyan"></i>
+                    <span class="text-xl font-black text-white uppercase">HSS Building Wash</span>
+                </div>
+                <p class="text-xs text-blue-300 leading-relaxed max-w-sm mx-auto md:mx-0">
+                    Professional exterior house washing, soft-brush cladding cleaning, water blasting, roof treatments, and pure water window cleaning across Christchurch & Canterbury.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-sm uppercase mb-3 text-accent-gold">Direct Contact</h4>
+                <p class="text-sm font-bold text-white mb-1">Call Craig on: <a href="tel:0221874508" class="text-accent-gold hover:underline">022-187-4508</a></p>
+                <p class="text-sm font-bold text-white mb-1">Email: <a href="mailto:hssbuildingwash@gmail.com" class="text-water-cyan hover:underline">hssbuildingwash@gmail.com</a></p>
+                <p class="text-xs text-blue-300 mt-2">Christchurch & Canterbury Region</p>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-sm uppercase mb-3 text-accent-gold">Service Guarantee</h4>
+                <p class="text-xs text-blue-300 leading-relaxed">
+                    Every job is handled with care using proper safety equipment and tailored pressure settings to ensure zero damage and maximum curb-appeal restoration.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-blue-400">
+            <p>&copy; 2026 HSS Building Wash. All Rights Reserved.</p>
+            <p class="flex items-center gap-2">
+                <span>Call Craig: 022-187-4508</span>
+                <span>•</span>
+                <span>hssbuildingwash@gmail.com</span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
